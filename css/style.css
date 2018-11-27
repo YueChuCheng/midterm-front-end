@@ -1,0 +1,558 @@
+body{
+    background-color:rgb(96, 96, 96);
+    
+
+}
+a{
+
+    text-decoration: none;
+}
+
+.main{
+    display:flex;
+    margin-top:4rem;
+   
+}
+
+
+
+
+.mid_body{
+    
+    display:flex;
+    margin:0 auto;
+
+}
+
+.left{
+    /*outline: 2px red solid;*/
+    background-color:rgb(255, 189, 38);
+    width:23rem;
+    height:62rem; 
+  
+    transform: perspective(5em) rotateY(2deg);   
+
+
+}
+
+.left-text{
+    /*outline: 2px red solid;*/
+    position: absolute;
+    margin-top:3rem;
+    z-index: 100;
+    width:14rem;
+    height:50rem; 
+    font-size: 1.1em;
+
+   
+
+}
+.left-text h3{
+
+    font-size: 1.5em;
+    margin-bottom:0.5em;
+   
+
+}
+.left-title_aboutme{
+    transform: perspective(5em) rotateY(2deg);   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2em;
+    margin-bottom:0.5em;
+    border-bottom:2px solid rgb(58, 58, 58);
+
+
+}
+
+
+
+
+.mid{
+    
+    /*outline: 2px red solid;*/
+    background-color: rgb(58, 58, 58);
+    color:rgb(242, 242, 242);
+    margin-left:-2rem;
+    margin-top:8rem;
+    width:35rem;
+    height:40rem; 
+    text-align: center;
+
+    
+    
+
+}
+
+
+.mid-img{
+    position: relative;
+    top:5em;
+    width:18em;
+    height:24em;
+
+}
+.mid_title{
+    position:relative;
+    font-family: "思源宋體";
+    margin-left: 2em;
+    top:7em;
+
+}
+.mid_title-a_mid_connectme{
+    position: relative;
+    color:rgb(58, 58, 58);
+    top:1.5em;
+    background-color:rgb(255, 189, 38) ;
+    padding:0.5em;
+
+
+}
+.right{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:5rem;
+    color:rgb(242, 242, 242);
+    
+    
+}
+.right a{
+    color:rgb(242, 242, 242);
+    text-decoration:none;
+
+}
+
+.right_row{
+    /*outline: 2px red solid;*/
+    display: flex;
+    background-color: rgb(43, 43, 43);
+    width:20rem;
+    height:12rem;
+    line-height:12rem;
+    text-align: center;
+
+}
+
+.tri{
+    
+    width: 0;
+    height: 0;
+    margin-top:3em;
+    border-style: solid;
+    border-width: 3em 0 3em 3em;
+    border-color: transparent transparent transparent rgb(255, 189, 38);
+    z-index: 1000;
+
+}
+
+.right_row_1{
+
+    border-bottom:2px solid rgb(242, 242, 242);
+    
+}
+.right_row-p1{
+    margin-left:5em;
+    z-index: 100;
+   /* outline: 2px red solid;*/
+}
+
+.right_row_2{
+
+    border-bottom:2px solid rgb(242, 242, 242);
+    
+}
+.right_row-p2{
+    margin-left:4em;
+    z-index: 100;
+
+}
+
+.right_row_3{
+
+    border-bottom:2px solid rgb(242, 242, 242);
+
+}
+.right_row-p3{
+    margin-left:3.5em;
+    z-index: 100;
+}
+
+
+.right_row-p4{
+    margin-left:4.75em;
+    z-index: 100;
+}
+
+
+
+.hoverpic1  {
+
+    position: relative;
+    width:20rem;
+    height:12rem;
+    bottom:48.4em;
+    opacity: 0.5;
+
+
+}
+
+
+.hoverpic2 {
+    position: relative;
+    width:20rem;
+    height:12rem;
+    bottom:36.2em;
+    opacity: 0.5;
+    
+   
+
+}
+
+
+
+
+
+.hoverpic3 {
+    position: relative;
+    bottom:24.2em;
+    width:20rem;
+    height:12.1rem;
+    opacity: 0.5;
+    
+  
+
+   
+}
+
+.hoverpic4 {
+   
+    position: relative;
+    bottom:12em;
+    width:20rem;
+    height:12rem;
+    opacity: 0.5;
+    
+}
+
+.row4{
+    position: relative;
+	display: block;
+
+}
+
+
+.left_text-p-experience{
+    /*outline: 1px red solid;*/
+    width:22rem;
+    height:auto;
+    font-family: "思源宋體";
+   /* padding-bottom:1em;*/
+    
+}
+
+.left_text-p-skill{
+    /*outline: 1px red solid;*/
+    border-top: 2px solid rgb(43, 43, 43);
+    width:21rem;
+    height:auto;
+    font-family: "思源宋體";
+    margin-top:1em;
+    padding-top:1em;
+    padding-bottom:1em;
+    border-bottom: 2px solid rgb(43, 43, 43);
+
+}
+
+.left_text-p-education{
+    /*outline: 1px red solid;*/
+    width:21rem;
+    height:auto;
+    font-family: "思源宋體";
+    margin-top:1em;
+
+}
+
+/*maxwidth 768px*/
+.left_text-p-experience p{
+
+    font-size: 1em;
+
+}
+.left_text-p-experience h3,.left_text-p-skill h3,.left_text-p-education h3{
+
+    font-size: 2em;
+
+
+
+}
+.left_text-p-skill p{
+
+    font-size: 1.1em;
+
+
+}
+.left_text-p-education p{
+
+    font-size: 1.4em;
+
+
+
+}
+
+@media screen and (max-width:768px){
+    .mid{
+        width:100vw;
+        margin: 0 auto;
+        margin-bottom:-4rem;
+
+
+    }
+    .mid_body{
+
+        display: initial;
+        margin:0;
+    }
+    .right{
+        display:flex;
+        flex-wrap: wrap;
+        
+
+
+    }
+    .right_row{
+
+        width:50vw;
+
+    }
+    .right_row_2{
+
+        border-left:2px solid rgb(242, 242, 242);
+        
+    }
+    .right_row_3{
+
+        border: initial;
+        
+    }
+    .right_row_4{
+
+        border-left:2px solid rgb(242, 242, 242);
+        
+    }
+    .left{
+        position: absolute;
+        transform: initial;
+        bottom:-90em;
+        width:100vw;
+       
+        
+    }
+    .left-title_aboutme{
+       /* outline: red solid 2px;*/
+        width:80vw;
+        font-size: 3em;
+
+    }
+    .left-text h3{
+       /* outline: red solid 2px;*/
+        font-size: 2em;
+        width:80vw;
+        width:auto;
+
+    }
+    .left-text{
+        position: absolute;
+        padding:3em;
+        font-size: 1.2em;
+        bottom:-65em;
+        
+    }
+    .left_text-p-experience,.left_text-p-skill,.left_text-p-education{
+
+        width:80vw;
+        height:auto;
+
+    }
+    .hoverpic1  {
+
+        position: relative;
+        bottom:24em;
+        width: 50vw;
+    
+    
+    }
+    
+    
+    .hoverpic2 {
+        position: relative;
+        bottom:24.05em;
+        left:50vw;
+        width: 50vw;
+        
+       
+    
+    }
+    
+    
+    
+    
+    
+    .hoverpic3 {
+        position: relative;
+        bottom:12.1em;
+        
+        width: 50vw;
+        
+      
+    
+       
+    }
+    
+    .hoverpic4 {
+       
+        position: relative;
+        bottom:12em;
+        left:51vw;
+        width: 50vw;
+        
+    }
+
+}
+
+
+
+
+
+/*maxwidth 768px*/
+
+
+
+
+@media screen and (max-width:480px){
+    .mid{
+        width:100vw;
+        margin: 0 auto;
+        margin-bottom:-4rem;
+
+
+    }
+    .mid_body{
+
+        display: initial;
+        margin:0;
+    }
+    .right{
+        display:flex;
+        flex-wrap: wrap;
+        
+
+
+    }
+    .right_row{
+
+        width:100vw;
+        
+
+    }
+    .right_row_2{
+
+        border: initial;
+        border-bottom: 2px solid rgb(242, 242, 242);
+        
+    }
+    .right_row_3{
+
+        border: initial;
+        border-bottom: 2px solid rgb(242, 242, 242);
+    }
+    .right_row_4{
+
+        border:initial;
+        
+    }
+    .left{
+        position: absolute;
+        transform: initial;
+        bottom:-114em;
+        width:100vw;
+    
+       
+        
+    }
+    .left-title_aboutme{
+       /* outline: red solid 2px;*/
+        width:80vw;
+        font-size: 3em;
+
+    }
+    .left-text h3{
+        /*outline: red solid 2px;*/
+        font-size: 2em;
+        width:80vw;
+        width:auto;
+
+    }
+    .left-text{
+        position: absolute;
+        padding:3em;
+        font-size: 1.2em;
+        bottom:-85em;
+        
+    }
+    .left_text-p-experience,.left_text-p-skill,.left_text-p-education{
+
+        width:80vw;
+        height:auto;
+
+    }
+    .hoverpic1  {
+
+        position: relative;
+        bottom:24em;
+        width: 50vw;
+    
+    
+    }
+    
+    
+    .hoverpic2 {
+        position: relative;
+        bottom:24.05em;
+        left:50vw;
+        width: 50vw;
+        
+       
+    
+    }
+    
+    
+    
+    
+    
+    .hoverpic3 {
+        position: relative;
+        bottom:12.1em;
+        
+        width: 50vw;
+        
+      
+    
+       
+    }
+    
+    .hoverpic4 {
+       
+        position: relative;
+        bottom:12em;
+        left:51vw;
+        width: 50vw;
+        
+    }
+    .right_row ,.right_row_3 {
+        z-index: 1000;
+
+
+    }
+
+}
+
+

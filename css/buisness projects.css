@@ -1,0 +1,377 @@
+.container{
+
+    padding-top:3rem;
+
+}
+body{
+    background-color:rgb(96, 96, 96);
+   /* padding-right:20em;*/
+  
+
+
+}
+
+.head{
+    margin-bottom:4em;
+}
+
+.box{
+   
+    background-color: rgb(43, 43, 43);
+   
+    /*width:90rem;*/
+    height:80rem;
+    
+    
+   
+
+}
+
+.div_row2-a_mixedmedia{
+
+    display: flex;
+
+}
+.div_row2{
+    
+    margin-top:4em;
+   
+
+}
+.div_row2-a_learnmore{
+   
+    display: flex;
+    
+    float: right;
+    margin-bottom:4em;
+
+}
+
+.main{
+    position: relative;
+    background-color: rgb(43, 43, 43);
+    width:90rem;
+    height:40rem;
+    margin: 0 auto;
+    top:3rem;
+
+}
+.main .section-div_row1{
+    
+
+    padding:0 10em;
+
+
+}
+.title{
+    
+    display:flex;
+    color:rgb(43, 43, 43);
+   
+   
+   
+
+}
+.title a{
+    text-decoration:none;
+
+
+}
+.title_style{
+  
+    position: relative;
+    background-color:rgb(255, 189, 38);
+    padding:1.5rem;
+    top:.5em ;
+    line-height: .5em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.title_home{
+   
+    position: relative;
+    top:1em;
+    color:rgb(242, 242, 242) ;
+    text-align: right;
+    margin-right:.8em;
+    
+
+
+}
+
+
+
+
+.section-div_row1{
+
+    display:flex;
+    flex-wrap: wrap;
+    margin:0 -20px;
+   
+    margin-bottom:3em;
+}
+
+.section-div_row1_colunm1{
+    
+    background-image: url(../image/work/empire.jpg);
+    background-size: cover;
+    background-position: center bottom;
+    
+
+}
+
+.section-div_row1_colunm2{
+    
+    background-image: url(../image/work/心智圖-內頁公版-B5-右頁.jpg);
+    background-size: cover;
+    background-position: center -15px;
+    
+
+}
+.col{
+    
+    background-color: #000000;
+    height:10em;
+
+   
+
+}
+.row{
+   justify-content: space-between;
+
+}
+.picrow{
+
+   /* outline: 10px solid red;*/
+    margin-top:1em;
+    justify-content: space-between;
+    padding: 2em;
+    padding-left: 2em;
+    color:white;
+}
+
+.section-div_row1_colunm3{
+    
+    background-image: url(../image/work/心智圖-內頁公版-B5-左頁.jpg);
+    background-size: cover;
+    background-position: center top;
+    
+
+}
+
+.section-div_row1_colunm4{
+    
+    background-image: url(../image/work/資產\ 2-100.jpg);
+    background-size: cover;
+    background-position: right top;
+    margin:0;
+    
+
+}
+
+
+
+.hoverstyle{
+   
+    position: relative;
+    background-color: black;
+    opacity: 0.6;
+    height:4em;
+    width:15em;
+    top:6em;
+    left:-1em;
+    z-index: 100;
+    text-align: center;
+   
+}
+
+.hoverstyle h3{
+
+    color:#ffffff;
+    font-size: 1em;
+
+}
+
+.hoverstyle p{
+
+    color:#ffffff;
+    font-size: 0.2em;
+
+}
+
+/*.col{
+    
+    background-color: #000000;
+    height:11em;
+    width:calc(100%/5);
+    padding:0 20px;
+    margin-bottom:1em;
+    margin-right:1em;
+
+
+}*/
+
+
+
+.triRight{
+  
+    position: relative;
+    width: 0;
+    height: 0;
+   
+    border-style: solid;
+    border-width: 1em 0 1em 1.5em;
+    border-color: transparent transparent transparent rgb(255, 189, 38);
+    z-index: 100;
+  
+    
+}
+
+.triLeft{
+  
+    position:relative;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 1em 1.5em 1em 0;
+    border-color: transparent rgb(255, 189, 38) transparent transparent;
+ 
+ }
+
+.div_next{
+   
+    display:flex;
+    justify-content: space-between;
+
+   
+
+}
+.div_next_left{
+ 
+    display:flex;
+    margin-left:1em;
+
+}
+.div_row2-a_mixedmedia-p{
+
+   position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(242, 242, 242);
+    margin-left:1em;
+    top:.3em;
+   
+}
+
+.div_next_right{
+
+    display:flex;
+    /*margin-right:1em;*/
+
+}
+.div_next_right-p{
+
+    position :relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(242, 242, 242);
+    margin-right:.7em;
+    top:.3em;
+   
+}
+
+
+
+@media screen and (min-width:480px){
+
+    .title_style, .title_home{
+
+        font-size: 1em;
+    
+    }
+    .box{
+        height:auto;
+        margin-bottom:2em;
+    }
+    .col{
+        margin-bottom:.5em;
+
+    }
+    #row2style2{
+        display:none;
+    
+    }
+    .hoverstyle{
+   
+        width:14.2em;
+        
+       
+    }
+
+
+}
+@media screen and (min-width:768px){
+
+.title_style, .title_home{
+
+    font-size: 1.8em;
+
+}
+#row2style, #row2style2{
+    display:none;
+
+}
+
+.hoverstyle{
+   
+    width:10.22em;
+    
+   
+}
+}
+
+
+
+
+
+@media screen and (max-width:480px){
+
+    .title_style, .title_home{
+
+        font-size: 1em;
+    
+    }
+    .box{
+        height:auto;
+        margin-bottom:2em;
+    }
+    .col{
+        margin-bottom:.5em;
+        height:15em;
+
+    }
+    #pic2, #pic3{
+        height:40em;
+
+    }
+
+    .hoverstyle{
+   
+       
+        
+        width:84vw;
+        top:11em;
+      
+        
+    }
+    #pic2 .hoverstyle{
+        top:36em;
+
+    }
+
+    #pic3 .hoverstyle{
+        top:36em;
+
+    }
+
+}
+

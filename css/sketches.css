@@ -1,0 +1,543 @@
+body{
+    background-color:rgb(96, 96, 96);
+    
+
+}
+a{
+
+    text-decoration:none;
+}
+.main{
+    position: relative;
+    background-color: rgb(43, 43, 43);
+    width:90rem;
+    height:40rem;
+    margin: 0 auto;
+    top:3rem;
+   
+}
+
+.main .section-div_row1,.section-div_row2{
+
+    padding:0 1em;
+
+
+
+}
+.title{
+   
+    /*outline: red solid 2px;*/
+    display:flex;
+    width:auto;
+    color:rgb(43, 43, 43);
+    justify-content: space-between;
+    margin-bottom:3em;
+
+}
+.title a{
+    text-decoration:none;
+
+
+}
+.title_style{
+    position: relative;
+    background-color:rgb(255, 189, 38);
+   /*outline: red solid 2px;*/
+    height: 2em;
+    width:20em;
+    top:.5em ;
+    line-height: .5em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.title_style-p{
+margin-left:2rem;
+
+}
+.title_home{
+    /*outline: solid red 1px;*/
+    position: relative;
+    top:1em;
+    color:rgb(242, 242, 242) ;
+    margin-right:1em;
+   
+
+}
+.section-div_row1,.section-div_row2{
+
+    display:flex;
+    flex-wrap: wrap;
+    margin:0 -5px;
+    justify-content: space-around;
+}
+
+.section-div_row1_colunm1{
+    
+    background-image: url(../image/sketches/1\ -\ 複製\ -\ 複製\ -\ 複製.jpg);
+    background-size: cover;
+    background-position: right bottom;
+    
+
+}
+
+.section-div_row1_colunm2{
+    
+    background-image: url(../image/sketches/2\ -.jpg);
+    background-size: cover;
+    background-position: right bottom;
+    
+
+}
+
+.section-div_row1_colunm3{
+    
+    background-image: url(../image/sketches/3.jpg);
+    background-size: cover;
+    background-position: left top;
+    
+
+}
+
+.section-div_row1_colunm4{
+    
+    background-image: url(../image/sketches/4\ .jpg);
+    background-size: cover;
+    background-position: right top;
+    
+
+}
+
+.section-div_row1_colunm5{
+    
+    background-image: url(../image/sketches/10.jpg);
+    background-size: cover;
+    background-position: right bottom;
+    
+
+}
+.section-div_row1_colunm6{
+    
+    background-image: url(../image/sketches/12.jpg);
+    background-size: cover;
+    background-position: right bottom;
+    
+
+}
+
+.section-div_row2_colunm1{
+    
+    background-image: url(../image/sketches/13.jpg);
+    background-size: cover;
+    background-position: right top;
+    
+
+}
+.section-div_row2_colunm2{
+    
+    background-image: url(../image/sketches/14.jpg);
+    background-size: cover;
+    background-position: right top;
+    
+
+}
+.section-div_row2_colunm3{
+    
+    background-image: url(../image/sketches/15.jpg);
+    background-size: cover;
+    background-position: right top;
+    
+
+}
+.section-div_row2_colunm4{
+    
+    background-image: url(../image/sketches/16.jpg);
+    background-size: cover;
+    background-position: right top;
+    
+
+}
+.hoverstyle{
+   
+    position: relative;
+    background-color: black;
+    opacity: 0.6;
+    height:4em;
+    width: 15.5em;
+    top:6em;
+    left:-.4em;
+    z-index: 100;
+    text-align: center;
+   
+}
+
+.hoverstyle h3{
+
+    color:#ffffff;
+    font-size: 1em;
+
+}
+
+.hoverstyle p{
+
+    color:#ffffff;
+    font-size: 0.2em;
+
+}
+
+.col{
+    
+    background-color: #000000;
+    height:11em;
+    width:calc(100%/6);
+    padding:0 5px;
+    
+    margin-bottom:1em;
+    border-right: solid 2px #000000; 
+
+
+}
+
+
+
+
+
+
+
+.triRight{
+    /* outline: solid red 1px;*/
+     position: relative;;
+     width: 0;
+     height: 0;
+     margin-top:3em;
+     border-style: solid;
+     border-width: 1em 0 1em 1.5em;
+     border-color: transparent transparent transparent rgb(255, 189, 38);
+     z-index: 100;
+     bottom:2.5em;
+ 
+ }
+ 
+ .triLeft{
+     /* outline: solid red 1px;*/
+     position:relative;
+     width: 0;
+     height: 0;
+     border-style: solid;
+     border-width: 1em 1.5em 1em 0;
+     border-color: transparent rgb(255, 189, 38) transparent transparent;
+     top:.5em;
+  
+  }
+
+.div_next{
+    /*outline: solid red 1px;*/
+    
+    display:flex;
+    justify-content: space-between;
+   
+
+}
+.div_next-p{
+
+    /*outline: solid red 1px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(242, 242, 242);
+    margin-left:.5em;
+   
+}
+
+
+.div_next_left{
+    /* outline: solid red 1px;*/
+     display:flex;
+     margin-left:1em;
+ 
+ }
+ .div_next_left-p{
+ 
+     /*outline: solid red 1px;*/
+     font-family: Arial, Helvetica, sans-serif;
+     color:rgb(242, 242, 242);
+     margin-right:.5em;
+    
+ }
+ 
+ .div_next_right{
+ 
+     display:flex;
+     margin-right:1em;
+ 
+ }
+ .div_next_right-p{
+ 
+     /*outline: solid red 1px;*/
+     font-family: Arial, Helvetica, sans-serif;
+     color:rgb(242, 242, 242);
+     margin-left:.5em;
+    
+ }
+
+
+
+ @media screen and (max-width:768px){
+   article{
+
+    margin: 0 auto;
+   }
+    
+    .main{
+        width:70vw;
+        height:auto;
+
+    }
+    .col{
+    
+        width:calc(100%/4);
+        
+    
+    }
+    .section-div_row2_colunm2{
+        display: none;
+
+    }
+    .section-div_row1_colunm1{
+    
+        width:39vw;
+      
+      }
+    .section-div_row1_colunm2{
+    
+      display:none;
+    
+    }
+    .section-div_row1_colunm5{
+    
+        background-image: url(../image/sketches/12.jpg);
+        width:39vw;
+        background-size: cover;
+        background-position: center top;
+        
+    
+    }
+    .section-div_row1_colunm6{
+        display:none;
+    }
+    .title_home{
+        position:relative;
+        top:2em;
+        margin-left:1em;
+        font-size:0.8em;
+
+
+    }
+    
+    #pic1 .hoverstyle {
+   
+       
+        width:41vw;
+       
+       
+    }
+    #pic3 .hoverstyle {
+   
+       
+        width: 18.55vw;
+       
+       
+    }
+
+    #pic4 .hoverstyle {
+   
+       
+        width: 18.55vw;
+       
+    }
+    #pic5 .hoverstyle {
+   
+       
+        width:41vw;
+       
+       
+    }
+    #pic7 .hoverstyle {
+   
+       
+        width: 18.55vw;
+       
+       
+    }
+    #pic9 .hoverstyle {
+   
+       
+        width: 18.55vw;
+       
+       
+    }
+    #pic10 .hoverstyle {
+   
+       
+        width: 18.55vw;
+       
+       
+    }
+
+    .section-div_row1_colunm1{
+    
+        background-image: url(../image/sketches/1\ -\ 複製\ -\ 複製\ -\ 複製.jpg);
+        background-size: cover;
+        background-position: center bottom;
+        
+    
+    }
+    
+    .section-div_row1_colunm2{
+        
+        background-image: url(../image/sketches/2\ -.jpg);
+        background-size: cover;
+        background-position: center bottom;
+        
+    
+    }
+    
+    
+   
+ }
+
+
+
+
+ @media screen and (max-width:480px){
+    .title_home{
+        margin-right:3em;
+
+
+    }
+     .main{
+         width:100vw;
+         height:auto;
+ 
+     }
+     .col{
+     
+         
+         width:70vw;
+         height:50vh; 
+     
+     }
+     .section-div_row2_colunm2{
+         display: block;
+ 
+     }
+     
+     .section-div_row1_colunm2{
+     
+       display:block;
+
+     
+     }
+     .section-div_row1_colunm5{
+     
+         background-image: url(../image/sketches/5\ .jpg);
+         
+         background-size: cover;
+         background-position: left top;
+         
+     
+     }
+     .section-div_row1_colunm6{
+        display:block;
+     }
+     #pic1{
+        width:20em;
+        height: 12em;
+      
+
+     }
+     
+     #pic2  ,#pic6 ,#pic8{
+        width:20em;
+        height: 15em;
+        background-size: cover;
+        background-position:  0em top ;
+      
+
+     }
+     #pic3,#pic4, #pic5, #pic7, #pic9, #pic10 {
+        width:20em;
+        height: 11em;
+        background-size: cover;
+        background-position: center;
+      
+
+     }
+    
+     #pic1 .hoverstyle,#pic2 .hoverstyle ,#pic3 .hoverstyle,#pic4 .hoverstyle,#pic5 .hoverstyle,#pic6 .hoverstyle,#pic7 .hoverstyle,#pic8 .hoverstyle,#pic9 .hoverstyle,#pic10 .hoverstyle{
+      
+        width:20.8em;
+        
+        
+     }
+     #pic1 .hoverstyle {
+      
+        top:7em;
+        
+        
+     }
+     #pic2 .hoverstyle {
+    
+        
+        
+        top:10em;
+        
+        
+     }
+ 
+     #pic3 .hoverstyle {
+    
+        
+        top:37em;
+        
+        
+        
+     }
+ 
+     #pic4 .hoverstyle,#pic7 .hoverstyle,#pic9 .hoverstyle,#pic10 .hoverstyle {
+    
+        top:37em;
+        
+        
+        
+     }
+     #pic5 .hoverstyle {
+    
+        top:37em;
+      
+        
+        
+     }
+     #pic6 .hoverstyle,#pic8 .hoverstyle {
+    
+        top:10em;
+      
+        
+        
+     }
+
+     
+     
+     #pic3,#pic4,#pic5,#pic7,#pic9,#pic10{
+
+        height:100vh;
+
+     }
+     .div_next_left-p{
+
+            margin-left:1.5em;
+     }
+
+     .div_next-p{
+
+        margin-right:1.5em;
+
+     }
+  }
